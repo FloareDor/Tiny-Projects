@@ -1,7 +1,8 @@
 import random
 tools = ["rock", "paper", "scissors"]
-bot_tool=tools[random.randint(0,2)]
+
 while True:
+    bot_tool=tools[random.randint(0,2)]
     player_tool = input("Rock or paper or scissor?: ").lower()
     if player_tool == bot_tool:
         print("Tie!")
