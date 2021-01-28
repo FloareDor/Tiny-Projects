@@ -39,9 +39,10 @@ def hangman(word):
 _________________________
          |          
         /
+        
         Uwu  ....oO(Thank You so much for saving me...I owe you my life!)
         /|\         
-        / \   """)
+ _______/_\________________        """)
             break
         # if the hangman dies
         if mistakes >= 7:
